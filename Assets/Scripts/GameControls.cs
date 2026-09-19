@@ -248,7 +248,7 @@ public class GameControls : MonoBehaviour
             {
                 questionCode = Random.Range(0, topicFourQuestionList.Length);
                 questionCodeNumber = questionCode + 74;
-                questionText = topicThreeQuestionList[questionCode];
+                questionText = topicFourQuestionList[questionCode];
                 question.StartTyping(questionText);
             }
         }
@@ -363,7 +363,7 @@ public class GameControls : MonoBehaviour
             {
                 questionCode = Random.Range(0, topicFourQuestionList.Length);
                 questionCodeNumber = questionCode + 74;
-                questionText = topicThreeQuestionList[questionCode];
+                questionText = topicFourQuestionList[questionCode];
                 question.StartTyping(questionText);
             }
         }
@@ -428,7 +428,7 @@ public class GameControls : MonoBehaviour
                         {
                             questionCode = Random.Range(0, topicFourQuestionList.Length);
                             questionCodeNumber = questionCode + 74;
-                            questionText = topicThreeQuestionList[questionCode];
+                            questionText = topicFourQuestionList[questionCode];
                             question.StartTyping(questionText);
                         }
                     } 
@@ -471,7 +471,7 @@ public class GameControls : MonoBehaviour
                         {
                             questionCode = Random.Range(0, topicFourQuestionList.Length);
                             questionCodeNumber = questionCode + 74;
-                            questionText = topicThreeQuestionList[questionCode];
+                            questionText = topicFourQuestionList[questionCode];
                             question.StartTyping(questionText);
                         }
                     } 
@@ -819,7 +819,7 @@ public class GameControls : MonoBehaviour
             {
                 questionCode = Random.Range(0, topicFourQuestionList.Length);
                 questionCodeNumber = questionCode + 74;
-                questionText = topicThreeQuestionList[questionCode];
+                questionText = topicFourQuestionList[questionCode];
                 question.StartTyping(questionText);
             }
         }
