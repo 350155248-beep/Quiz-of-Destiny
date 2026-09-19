@@ -196,6 +196,8 @@ public class GameControls : MonoBehaviour
         mainScreen.SetActive(true);
         maxPowerupsReachedText.SetActive(false);
         powerupActivator.hintCountdownText.text = "0";
+        score = 0;
+        scoreText.text = score.ToString();
         gameMusicPlayer.Play();
         if(endlessActivated)
         {
@@ -311,6 +313,7 @@ public class GameControls : MonoBehaviour
         maxPowerupsReachedText.SetActive(false);
         powerupActivator.questionBoxes.Clear();
         powerupActivator.questionBoxes.AddRange(powerupActivator.qBoxesData);
+        time = 30f;
         foreach (GameObject button in powerupActivator.questionBoxes)
         {
             button.SetActive(true);
@@ -820,6 +823,7 @@ public class GameControls : MonoBehaviour
                 question.StartTyping(questionText);
             }
         }
+        time = 30f;
         updatePowerupSlots();
         SetAnswerButtons();
     }
