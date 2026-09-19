@@ -937,16 +937,14 @@ MonoBehaviour:
   - Ebenezer Place (Wick, Scotland)
   - Fast, public road that connects areas.
   - Portion of roadway made for bicycles.
-  - Three way junction where a highway merges into another.
-  - Three way junction with no slow, sharp loop ramps.
-  - A highway interchange that controls left turning and through traffic with a traffic
-    signal.
-  - A highway junction that combines loop ramps with diamond interchange ramps.
-  - A design that removes left turns by replacing them with a connector road.
-  - A highway junction that's shaped like a diamond.
-  - A two level highway junction that allows two major roads to cross without traffic
-    lights or left turn crossings.
-  - A highway junction that uses a series of stacked bridges and flyovers.
+  - Three way junction to merge a highway.
+  - Three way junction with no loop ramps.
+  - An interchange with a traffic signal for left and straight traffic.
+  - A junction that combines loop and diamond interchange ramps.
+  - A design that uses a connector road for left turns.
+  - A junction that's shaped like a diamond.
+  - A junction that allows two roads to cross with no lights and crossings.
+  - A junction that uses a series of stacked bridges and flyovers.
   - Interstate 90
   - Highway 17
   - U.S Route 66
@@ -955,8 +953,7 @@ MonoBehaviour:
   - Trans-Canada Highway
   - 2,448 mi.
   - 3,940 km.
-  - A circular road junction where traffic flows in one direction around a central
-    island.
+  - A circular road junction where traffic moves around in a circle.
   - Autobahn
   - 50 km/h
   - 40 km/h
@@ -1041,9 +1038,9 @@ MonoBehaviour:
   - Baldwin St.
   - Slow, public road that connects areas.
   - A road made for pedestrians.
-  - An interchange that handles four-way intersections with vertical traffic.
-  - Directs boats through a three-stage canal lock system with 3 stages.
-  - Elimintates traffic lights by replacing it with an underground tunnel network.
+  - An interchange that uses vertical traffic for four-way intersections.
+  - Directs boats through a three-stage canal lock system.
+  - Replaces traffic lights with an underground tunnel network.
   - Tracks plants' growth in four-leaf clover fields.
   - Measures wind direction with a rotation radar dish.
   - Allows seamless travel between two highways with no traffic signals.
@@ -1057,8 +1054,7 @@ MonoBehaviour:
   - Yellowhead Highway
   - 1850 mi.
   - 2980 km.
-  - Gives entering vehicles automatic right-of-way over vehicles that are already
-    in it.
+  - Gives entering vehicles the right-of-way over vehicles that are in it.
   - Autostrada
   - 45 km/h
   - 60 km/h
@@ -1148,8 +1144,7 @@ MonoBehaviour:
   - Forces drivers to U-turn further down to complete a left turn.
   - Regulates water flow through an irrigation pump with four-valves.
   - Divides a circle to 4 for GPS.
-  - Temporailiy moves traffic to the left side of the road to simplify left turns
-    onto the highway.
+  - Simplifies lefts turns by moving traffic to the left side of the road.
   - Forces left turning traffic to cross approaching anes with traffic singals.
   - Controls the burning of fuel inside multi-stage rockets.
   - Interstate 10
@@ -1245,14 +1240,13 @@ MonoBehaviour:
   - Lombard St.
   - A lane that is made for vehicles to go fast.
   - A road that's shared by pedestrians and bicycles.
-  - An interchange that directs incoming traffic to a two-lane spiral that merges
-    the vehicles on the left side.
+  - An interchange that directs traffic to a spiral that merges traffic on the left.
   - Filters traffic into a three lane toll plaza that's 3 lanes long.
   - Separates local and through-traffic with collector-express lanes.
   - Rotates trains across a rail yard turntable that's four tracks long.
   - Routes all traffic on the highway through a roundabout.
   - Forces all exiting traffic to a central lane before entering the local road.
-  - Merges two highways to a single lane before separating them with designated exits.
+  - Merges two highways to a single lane before splitting them with two exits.
   - Manages digital memory allocation in the CPU.
   - Interstate 95
   - Highway 11
